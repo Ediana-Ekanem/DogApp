@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  font-family: "Happy Monkey", cursive;
+  font-family: "Orbitron", sans-serif;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Trispace", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.nav-hover:hover {
+  color: #1fc8e5 !important;
+  font-weight: 400;
+  transition: 400ms;
+}
+
+.hero-underline {
+  margin: 5px auto;
+  width: 10%;
+  color: #fff;
+  height: 1px;
+  background-color: #fff;
+}
+
+.my-justify {
+  text-align: justify;
+}
+
+.header-div {
+  width: 16rem;
+  height: 200px;
+  margin: auto;
+}
+
+.header-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pad {
+  padding: 0;
+}
+
+.learn-session {
+  background-color: #1fc8e5;
+}
+.learn-p {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+.Cat-img-wrapper {
+  /* width: 20rem; */
+  height: 200px;
+}
+
+.Cat-div {
+  /* width: 20.2rem; */
+  height: 360px;
+  margin: 5px auto;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.move-card {
+  position: relative;
+  top: 20px;
+  /* left: 80px; */
+}
+
+.my-price-btn {
+  width: 50%;
+  margin: auto;
+}
+
+.price-card {
+  border-radius: 0;
+}
+
+.subscribe {
+  background-color: #3cc0d5;
+  color: #fff;
+}
+
+.subscribe-form {
+  outline: none;
+  border: none;
+  border-bottom: solid 2px;
+  padding: 0 0 3px 5px;
+  border-color: #fff;
+  background-color: transparent;
+  width: 300px;
+  caret-color: #fff;
+}
+
+.btn-subscribe {
+  padding: 2px 20px;
+  background-color: #fff;
+  color: #3cc0d5;
+  transition: 500ms;
+  cursor: pointer;
+  border: 3px solid #3cc0d5;
+}
+
+.btn-subscribe:hover {
+  background-color: #3cc0d5;
+  color: #fff;
+  font-weight: 900;
+  border: 3px solid #fff;
+}
+::placeholder {
+  color: #fff;
+}
+
+.footer-icons {
+  padding: 0 auto;
+}
+
+.bi:hover {
+  color: gray;
+}
+
+/* 
+@media (min-width: 400px) {
+  .media-img {
+    margin-left: 5.5rem;
+  }
+  .media-main {
+    width: 250px;
+  }
+  .media-btn {
+    margin-right: 35px;
+  }
+  .media-main-p {
+    text-align: justify;
+  }
+  .media-sub {
+    padding: 0 230px;
+  }
+} */
